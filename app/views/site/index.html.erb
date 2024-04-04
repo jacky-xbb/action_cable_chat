@@ -1,0 +1,9 @@
+<div class="chat p-8" data-controller="chat">
+
+  <div data-chat-target="messages"></div>
+
+  <div class="chat-actionbar">
+    <input type="text" data-chat-target="input" class="chat-input" />
+    <input type="submit" value="<%= t('site.submit') %>" data-action="click->chat#submit" class="button" />
+  </div>
+</div>
